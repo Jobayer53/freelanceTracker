@@ -31,7 +31,7 @@ class ProjectController extends Controller
             return response()->json($validator->errors(), 422);
         }
 
-        // Ensure the client belongs to the authenticated user
+        
         $client = auth()->user()->clients()->find($request->client_id);
         if (!$client) {
             return response()->json(['error' => 'Unauthorized client ID'], 403);
