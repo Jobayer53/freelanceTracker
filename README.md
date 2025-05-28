@@ -19,14 +19,13 @@ A Laravel 12-based RESTful API for freelancers to log and manage their work time
 Follow these steps to set up and run the project locally:
 
 ### 1. Clone the Repository
-```bash
-git clone https://github.com/yourusername/freelance-time-tracker-api.git
+
+git clone https://github.com/Jobayer53/freelanceTracker.git
 cd freelanceTracker
 composer install
 cp .env.example .env
 php artisan key:generate
 php artisan serve
-
 
 ## ⚙️ Features
 
