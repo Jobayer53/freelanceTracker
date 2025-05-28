@@ -20,12 +20,12 @@ Follow these steps to set up and run the project locally:
 
 ### 1. Clone the Repository
 
-- `git clone https://github.com/Jobayer53/freelanceTracker.git
-- `cd freelanceTracker
-- `composer install
-- `cp .env.example .env
-- `php artisan key:generate
-- `php artisan serve
+- `git clone https://github.com/Jobayer53/freelanceTracker.git`
+- `cd freelanceTracker`
+- `composer install`
+- `cp .env.example .env`
+- `php artisan key:generate`
+- `php artisan serve`
 
 ## ⚙️ Features
 
