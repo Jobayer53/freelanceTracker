@@ -25,6 +25,7 @@ Follow these steps to set up and run the project locally:
 - `composer install`
 - `cp .env.example .env`
 - `php artisan key:generate`
+- `php artisan migrate or php artisan migrate:fresh --seed`
 - `php artisan serve`
 
 ## ⚙️ Features
